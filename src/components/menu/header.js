@@ -98,7 +98,7 @@ const Header= function() {
           <div className='logo px-0'>
               <div className='navbar-title navbar-item'>
                 <NavLink to="/">
-                <img
+                {/* <img
                     src="/img/logo.png"
                     className="img-fluid d-block"
                     alt="#"
@@ -112,7 +112,7 @@ const Header= function() {
                     src="/img/logo-light.png"
                     className="img-fluid d-none"
                     alt="#"
-                  />
+                  /> */}
                 </NavLink>
               </div>
           </div>

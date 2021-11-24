@@ -15,6 +15,8 @@ const CarouselCollectionRedux = () => {
   const hotCollectionsState = useSelector(selectors.hotCollectionsState);
   const hotCollections = hotCollectionsState.data ? hotCollectionsState.data : [];
 
+  console.log('THE FUCKING hotCollections : ', hotCollections)
+  console.log('THE FUCKING hotCollectionsState : ', hotCollectionsState)
   useEffect(() => {
     dispatch(fetchHotCollections());
 }, [dispatch]);
@@ -23,6 +25,7 @@ const CarouselCollectionRedux = () => {
       <div className='nft'>
         <Slider {...settings}>
           { hotCollections && hotCollections.map((item, index) => (
+            
             <CustomSlide
               key={index}
               index={index + 1}

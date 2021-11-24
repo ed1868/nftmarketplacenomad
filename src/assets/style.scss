@@ -48,8 +48,8 @@ $general: #727272;
 $black_soft: #333;
 $black_col: #2e333c;
 $black_more: #0f0f0f;
-$color: #8364E2;
-$color_more: #403f83;
+$color: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+$color_more: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
 .col-white{
   color: $white;
 }
@@ -237,7 +237,7 @@ section{
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-    background: linear-gradient(to bottom, $color, $color_more);
+    background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
 }
 .spacer-10 {
     width: 100%;
