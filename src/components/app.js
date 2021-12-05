@@ -2,7 +2,7 @@ import React from 'react';
 import { Router, Location, Redirect } from '@reach/router';
 import ScrollToTopBtn from './menu/ScrollToTop';
 import Header from './menu/header';
-import Home from './pages/home';
+import Home from './pages/home2';
 import Home1 from './pages/home1';
 import Home2 from './pages/home2';
 import Home3 from './pages/home3';
