@@ -132,7 +132,7 @@ const Header= function() {
                           >
                           Home
                         </div>
-                        {openMenu && (
+                        {/* {openMenu && (
                           <div className='item-dropdown'>
                             <div className="dropdown" onClick={closeMenu}>
                               <NavLink to=" " onClick={()=> window.open("http://gigaland.grey.on3-step.com", "_self")}>New Grey Scheme</NavLink>
@@ -142,7 +142,7 @@ const Header= function() {
                               <NavLink to="/home3" onClick={() => btn_icon(!showmenu)}>Homepage 3</NavLink>
                             </div>
                           </div>
-                        )}
+                        )} */}
                       </div>
                     </div>
                     <div className='navbar-item'>
